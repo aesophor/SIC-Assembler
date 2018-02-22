@@ -12,7 +12,7 @@ My assignment. An assembler for SIC (Simplified Instructional Computer) written 
     - an object file (*.obj)
 
 # Try out
-A jar is ready inside the dist/ directory.
+A jar is ready and can be found under dist/
 ```
 git clone https://github.com/aesophor/SIC-Assembler.git
 java -jar dist/Assembler.jar copy.asm
