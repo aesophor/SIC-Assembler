@@ -4,9 +4,9 @@ My assignment. An assembler for SIC (Simplified Instructional Computer) written 
 # Description
  - This assembler is implemented using the algorithm in " System Software: An Introduction to Systems Programming" by Leland L. Beck.
  - Assemble any program "for SIC" (not SIC/XE) written in assembly language with the source code extension ".asm".
- - It requires:
-    - OperationTable (tables/OperationTable)
-    - SymbolTable uses HashMap.
+ - OPTAB and SYMTAB
+    - OperationTable can be located at tables/OperationTable. It is loaded from this file.
+    - SymbolTable uses HashMap, so no file is required.
  - It will produce:
     - an intermediate file (.tmp)
     - an object file (*.obj)
